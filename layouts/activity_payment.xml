@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment"
+    android:background="#ADD8E6">
+
+
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cardholder_name"
+        android:autofillHints=""
+        android:inputType="text"
+        android:textColorHint="#0000FF"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/card_number"
+        android:inputType="number"
+        android:autofillHints=""
+        android:textColorHint="#0000FF"/>
+
+       <EditText
+        android:id="@+id/et3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expiry"
+        android:inputType="number"
+        android:textColorHint="#0000FF"/>
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cvv_code"
+            android:inputType="numberPassword"
+            android:textColorHint="#0000FF"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt3"
+        android:textSize="24dp"
+        android:background="#0000FF"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/color1"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment"
+    android:background="#f4c2c2 ">
+
+
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/license_plate"
+        android:autofillHints=""
+        android:inputType="text"
+        android:textColorHint="#e75480"
+
+        />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/make"
+        android:inputType="text"
+        android:autofillHints=""
+        android:textColorHint="#e75480"/>
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Model"
+        android:inputType="number"
+        android:textColorHint="#e75480"/>
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/color"
+        android:inputType="text"
+        android:textColorHint="#e75480"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/bt3"
+            android:background="#e75480"
+            android:textSize="24dp"
+
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>
