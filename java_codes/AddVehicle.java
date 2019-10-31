@@ -1,12 +1,16 @@
-package com.example.projecteaze;
+/*
+ ParkingEazeTeam
 
-import androidx.appcompat.app.AppCompatActivity;
+ */
+package parking.IOT.syetem.scale.model;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class AddVehicle extends AppCompatActivity {
 
@@ -22,7 +26,7 @@ public class AddVehicle extends AppCompatActivity {
         final EditText et3 = (EditText)findViewById(R.id.et3);
         final EditText et4 = (EditText)findViewById(R.id.et4);
 
-        Button bt = (Button)findViewById(R.id.button2);
+        Button bt = (Button)findViewById(R.id.add_vehicle);
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
